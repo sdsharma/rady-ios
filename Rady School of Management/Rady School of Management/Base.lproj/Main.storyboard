@@ -54,11 +54,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" mapType="standard" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7Y-Mj-axf">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="394"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="394"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rady School of Management" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIi-5U-7OV">
                                 <rect key="frame" x="20" y="402" width="580" height="45"/>
@@ -85,6 +85,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Location" image="map_marker" id="cPa-gy-q4n"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="mapView" destination="S7Y-Mj-axf" id="XvQ-pC-3gi"/>
                     </connections>

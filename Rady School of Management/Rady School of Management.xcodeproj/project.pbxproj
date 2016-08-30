@@ -15,6 +15,7 @@
 		40E73BF11D760ECD00155CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E73BEF1D760ECD00155CD9 /* LaunchScreen.storyboard */; };
 		40E73BFC1D760ECD00155CD9 /* Rady_School_of_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73BFB1D760ECD00155CD9 /* Rady_School_of_ManagementTests.swift */; };
 		40E73C071D760ECD00155CD9 /* Rady_School_of_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73C061D760ECD00155CD9 /* Rady_School_of_ManagementUITests.swift */; };
+		40E73C151D76431500155CD9 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E73C141D76431500155CD9 /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		40E73C021D760ECD00155CD9 /* Rady School of ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rady School of ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E73C061D760ECD00155CD9 /* Rady_School_of_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rady_School_of_ManagementUITests.swift; sourceTree = "<group>"; };
 		40E73C081D760ECD00155CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E73C141D76431500155CD9 /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				40E73BE61D760ECD00155CD9 /* FirstViewController.swift */,
 				40E73BE81D760ECD00155CD9 /* SecondViewController.swift */,
 				40E73BEA1D760ECD00155CD9 /* Main.storyboard */,
+				40E73C141D76431500155CD9 /* Annotation.swift */,
 				40E73BED1D760ECD00155CD9 /* Assets.xcassets */,
 				40E73BEF1D760ECD00155CD9 /* LaunchScreen.storyboard */,
 				40E73BF21D760ECD00155CD9 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				40E73BE91D760ECD00155CD9 /* SecondViewController.swift in Sources */,
 				40E73BE51D760ECD00155CD9 /* AppDelegate.swift in Sources */,
+				40E73C151D76431500155CD9 /* Annotation.swift in Sources */,
 				40E73BE71D760ECD00155CD9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
